@@ -47,7 +47,10 @@ def block_write(name, amount, to_whom, prev_hash=''):
 
 
 def main():
-    block_write(name='', amount='', to_whom='')
+    name = input('Who is pay? ')
+    amount = input('How many? ')
+    to_whom = input('To whom? ')
+    block_write(name, amount, to_whom)
     check()
 
 
