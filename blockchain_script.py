@@ -2,6 +2,9 @@ import hashlib as hl
 import json
 import os
 
+#This is the path to the directory in which the blocks will be written
+#for the code to work, you need to put the script in the same folder as the folder 'blockchain'
+#blocks wiil be written to the 'blockchain' folder
 block_chain = os.curdir + '/blockchain/'
 
 
